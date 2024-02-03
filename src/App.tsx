@@ -1,14 +1,19 @@
 import { Counter } from "./components/Counter";
+import { TimerPadre } from "./components/TimerPadre";
 import { Usuario } from "./components/Usuario";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hola Mundo React+Ts</h1>
-      <hr/>
-      <Counter/>
-      <Usuario/>
-    </div>
+    <>
+        <h1> React+Ts</h1>
+        <hr/>
+        <h2>useState</h2>
+        <Counter/>
+        <Usuario/>
+        <h2>useEffect - useRef</h2>
+        <hr/>
+        <TimerPadre/>
+    </>
   );
 }
 
